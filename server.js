@@ -3,11 +3,11 @@
 //
 // A simple chat server using Socket.IO, Express, and Async.
 //
-
+console.log("... starting server.js      Mark!");
 var Firebase = require("firebase");
 // var myFirebaseRef = new Firebase("https://taipei-webapp.firebaseio.com/");
 var myFirebaseRef = new Firebase("https://youbike.firebaseio.com/");
-
+console.log("... after myFirebaseRef = new Firebase("https://youbike.firebaseio.com/");")
 
 var url ="http://data.taipei/youbike";//youbike即時資訊
 
